@@ -179,7 +179,7 @@ const UserArea = ({
             <span className={loginButtonTextSpanClass}>{t('登录')}</span>
           </Button>
         </Link>
-        {showRegisterButton && (
+        {/* {showRegisterButton && (
           <div className='hidden md:block'>
             <Link to='/register' className='flex -ml-px'>
               <Button
@@ -191,7 +191,7 @@ const UserArea = ({
               </Button>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     );
   }
